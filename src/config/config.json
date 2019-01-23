@@ -1,0 +1,10 @@
+{
+    "development": {
+      "username": "WarningService",
+      "password": "WCJEzJed4bUhCp9",
+      "database": "WarningService",
+      "host": "35.228.44.201",
+      "dialect": "mysql"
+    }
+  }
+  
