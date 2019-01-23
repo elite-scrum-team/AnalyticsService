@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', async (req, res) => {
-    await res.send('vim > emax'); 
+    await res.send('Hello World'); 
 });
 
 const port = process.env.port | 80;
