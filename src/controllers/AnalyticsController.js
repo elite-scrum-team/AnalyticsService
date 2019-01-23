@@ -4,7 +4,7 @@ const Op = Sequelize.Op
 
 module.exports = {
 
-    numberOfTotalWarnings: async (startDate, endDate) =>
+    numberOfTotalWarnings: async (startDate, endDate, whereAddOn) =>
         db.warning.findOne({
             attributes: [
                 [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'count']
